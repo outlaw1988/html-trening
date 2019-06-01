@@ -1,0 +1,76 @@
+body {
+    background-color: darkslateblue;
+}
+
+.text {
+    color: white;
+}
+
+.input-style {
+    background-color: darkblue;
+    width: 300px
+}
+
+.input-style:focus {
+    background-color: cadetblue;
+}
+
+div.container {
+    padding: 10px;
+}
+
+.select-style {
+    width: 300px;
+    background-color: darkblue;
+}
+
+.label-hover:hover {
+    cursor: pointer;
+}
+
+textarea#message {
+    width: 300px;
+    background-color: darkblue;
+}
+
+textarea#message:focus {
+    background-color: cadetblue;
+}
+
+.button {
+    background-color: green;
+}
+
+.form-submit-button {
+    background: green;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+
+/*
+border: 1px solid #eee;
+
+border-radius: 20px;
+
+box-shadow: 5px 5px 5px #eee;
+
+text-shadow:none;
+*/
+}
+
+.form-submit-button:hover {
+    background: #016ABC;
+    color: #fff;
+    cursor: pointer;
+/*
+border: 1px solid #eee;
+
+border-radius: 20px;
+
+box-shadow: 5px 5px 5px #eee;
+
+text-shadow:none;
+*/
+}

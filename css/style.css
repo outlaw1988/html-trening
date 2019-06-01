@@ -1,0 +1,89 @@
+h3 {
+    color: coral;
+}
+
+h1 {
+    color: aqua;
+}
+
+p.blue {
+    color: blue;
+}
+
+p .blue {
+    color: aqua;
+}
+
+p#red {
+    color: red;
+}
+
+/*
+div {
+    width: 500px;
+    height: 300px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 15px;
+
+    padding: 15px 30px 10px 20px;
+    border: 1px solid black;
+    margin: 30px;
+}
+*/
+
+div#green {
+    width: 300px;
+    height: 200px;
+    background-color: green;
+    position: relative;
+}
+
+div#red {
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+div#blue {
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+}
+
+div#fix {
+    width: 300px;
+    height: 200px;
+    background-color: yellow;
+    position: fixed;
+    top: 200px;
+    left: 500px;
+}
+
+div#green-container {
+    width: 400px;
+    height: 400px;
+    background-color: green;
+    position: relative;
+}
+
+div#blue2 {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 50%;
+    background-color: blue;
+}
+
+div#red2 {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    background-color: red;
+}
+
